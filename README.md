@@ -4,7 +4,7 @@ A Minecraft Fabric mod that renders small ore veins through walls in blue.
 
 ## Features
 
-- **Detects ALL ore types** in Minecraft 1.21.1
+- **Detects ALL ore types** in Minecraft 1.21.11 (Mounts & Mayhem)
 - **Vein Size Limit**: Only marks veins with 3 or fewer blocks
 - **Connection Detection**: Marks single ore blocks only if connected (straight or diagonal)
 - **Blue Highlighting**: All detected veins render with blue outlines through walls
@@ -41,10 +41,10 @@ A Minecraft Fabric mod that renders small ore veins through walls in blue.
 
 ## Requirements
 
-- Minecraft 1.21.1
+- Minecraft 1.21.11 (Mounts & Mayhem Update)
 - Fabric Loader 0.19.2 or newer
 - Java 21 or newer
-- Fabric API 0.97.3+1.21.1 or newer
+- Fabric API 0.97.3+1.21.11 or newer
 
 ## Building
 
