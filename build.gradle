@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.4.11'
+	id 'fabric-loom' version '1.7.11'
 	id 'maven-publish'
 }
 
@@ -16,7 +16,6 @@ repositories {
 	maven { url = "https://maven.architectury.dev/" }
 	maven { url = "https://api.modrinth.com/maven" }
 	maven { url = "https://maven.terraformersmc.com/releases/" }
-	google()
 }
 
 dependencies {
