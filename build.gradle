@@ -12,8 +12,11 @@ base {
 
 repositories {
 	mavenCentral()
+	maven { url = "https://maven.fabricmc.net/" }
+	maven { url = "https://maven.architectury.dev/" }
 	maven { url = "https://api.modrinth.com/maven" }
 	maven { url = "https://maven.terraformersmc.com/releases/" }
+	google()
 }
 
 dependencies {
