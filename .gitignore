@@ -1,0 +1,15 @@
+gradle.properties
+.gradle/
+build/
+out/
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+*.class
+*.jar
+*.jar-lock
+*.jar.original

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ore_vein_renderer",
+  "version": "${version}",
+  "name": "Ore Vein Renderer",
+  "description": "Renders small ore veins (3 blocks or less) through walls in blue",
+  "authors": [
+    "osmanniii14"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.osmanniii14.ore_vein_renderer.OreVeinRendererClient"
+    ]
+  },
+  "mixins": [
+    "ore_vein_renderer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
